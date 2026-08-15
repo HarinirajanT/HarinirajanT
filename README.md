@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="banner.svg?v=2" alt="Harini T banner" width="100%">
@@ -15,10 +16,7 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harini-t-853aa4263/)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harinirajan2004t@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-22D3EE?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/HarinirajanT/harini-portfolio)
-[![Resume](https://img.shields.io/badge/Resume-Download-F2A93C?style=for-the-badge&logo=readdotcv&logoColor=black)](./resume.pdf)
+[LinkedIn](https://www.linkedin.com/in/harini-t-853aa4263/) · [Email](mailto:harinirajan2004t@gmail.com) · [Portfolio](https://github.com/HarinirajanT/harini-portfolio) · [Resume](./resume.pdf)
 
 <br>
 
@@ -35,7 +33,6 @@
 </table>
 
 </div>
-
 
 ## 👩‍💻 About me
 
@@ -96,8 +93,6 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 
 
 💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
-
-
 
 
 
