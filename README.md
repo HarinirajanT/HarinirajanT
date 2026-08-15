@@ -22,18 +22,6 @@ Currently, I'm building [**CareerPilot-AI**](https://github.com/HarinirajanT/Car
 - 💬 Ask me about: **Python, Full Stack Development, AI-powered applications & APIs**
 - 📫 Reach me: [**LinkedIn**](https://www.linkedin.com/in/harini-t-853aa4263/) · [**Email**](mailto:harinirajan2004t@gmail.com)
 
----
-
-### Experience
-
-**Applied AI Engineer Intern — DevRev** · *Oct 2025 – Jun 2026*
-Automated repetitive engineering workflows using AI-powered coding tools and prompt engineering on a cloud SaaS platform. Resolved live production issues for enterprise clients including **Paytm** and **Bajaj**. Built and tested REST APIs with Postman, maintaining documentation for smooth knowledge transfer.
-
-**Intern — RevLabs** · *Jul 2026 – Present*
-Built and shipped **CounselIQ** (React.js, TypeScript) — a live, production-facing product. Independently developed the full website for **Intelabroad**, a RevLabs sister company. Built ETL pipelines (SQL, Python, Excel) consolidating customer data into dashboards. Created Claude-driven automation and Playwright test scripts for QA and root-cause analysis.
-
-**Web Development Intern — Altruisty** · *May 2024 – Jun 2024*
-Developed the company's official website using React.js, HTML5, CSS3, and JavaScript. Collaborated with the dev team on UI responsiveness and client requirements, using Git/GitHub for version control.
 
 ---
 
