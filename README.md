@@ -4,9 +4,16 @@
 
 <br>
 
+<table>
+<tr>
+<td width="220" valign="top" align="center">
+
 <img src="lanyard.svg?v=1" alt="ID badge" width="200">
 
-<br><br>
+</td>
+<td valign="top" align="center">
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harini-t-853aa4263/)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harinirajan2004t@gmail.com)
@@ -15,12 +22,17 @@
 
 <br>
 
-<img src="openwork.svg?v=1" alt="open to work" width="90%">
+<img src="openwork.svg?v=2" alt="open to work" width="100%">
+
+</td>
+</tr>
+</table>
 
 </div>
 
 ## 👩‍💻 About me
-I'm a Computer Science Engineer passionate about building real-world applications using AI, Full Stack Development, and automation. I enjoy turning ideas into practical, working products and continuously exploring new technologies.
+
+I'm a Computer Science Engineer building **agentic AI systems** — agents that plan, call tools, and act, not just reply — alongside full-stack products that ship.
 
 🌱 Currently exploring: Generative AI, LLMs, AI Agents, FastAPI & React
 
@@ -74,5 +86,11 @@ I'm a Computer Science Engineer passionate about building real-world application
 </picture>
 
 ![profile views](https://komarev.com/ghpvc/?username=HarinirajanT&color=22D3EE&style=flat)
+
+</div>
+
+
+
+
 
 </div>
