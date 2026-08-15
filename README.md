@@ -48,7 +48,7 @@ Developed the company's official website using React.js, HTML5, CSS3, and JavaSc
 | **[chat-app](https://github.com/HarinirajanT/chat-app)** | JavaScript | Real-time chat application |
 | **[Expense_tracker](https://github.com/HarinirajanT/Expense_tracker)** | JavaScript | Personal expense tracking app |
 
-> 💡 Add a one-line description to each repo's "About" settings so this table (and your repo overview page) stays accurate as you build more.
+
 
 ---
 
@@ -71,7 +71,6 @@ Developed the company's official website using React.js, HTML5, CSS3, and JavaSc
 <img src="https://raw.githubusercontent.com/HarinirajanT/HarinirajanT/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </div>
 
-*(Appears after you enable the workflow below — see setup steps.)*
 
 <br/>
 
