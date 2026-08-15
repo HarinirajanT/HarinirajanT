@@ -1,0 +1,38 @@
+<svg width="700" height="150" viewBox="0 0 700 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text{font-family:'JetBrains Mono',monospace;}
+  .cell{opacity:0;animation:pop .5s ease forwards;}
+  .c1{animation-delay:.1s;} .c2{animation-delay:.25s;} .c3{animation-delay:.4s;}
+  .c4{animation-delay:.55s;} .c5{animation-delay:.7s;}
+  @keyframes pop{from{opacity:0;transform:scale(.85);}to{opacity:1;transform:scale(1);}}
+</style>
+<rect width="700" height="150" fill="#0E1216" rx="16"/>
+<rect width="700" height="150" fill="none" stroke="#F4F3EF" stroke-opacity="0.08" rx="16"/>
+
+<g>
+  <rect class="cell c1" x="20" y="20" width="120" height="110" rx="10" fill="#F4F3EF" fill-opacity="0.04" stroke="#F2A93C" stroke-opacity="0.4" transform-origin="80px 75px"/>
+  <text x="80" y="60" font-size="24" fill="#F2A93C" text-anchor="middle">★</text>
+  <text x="80" y="88" font-size="11" fill="#F4F3EF" text-anchor="middle">Repositories</text>
+  <text x="80" y="106" font-size="16" fill="#F4F3EF" text-anchor="middle" font-weight="700">18</text>
+
+  <rect class="cell c2" x="156" y="20" width="120" height="110" rx="10" fill="#F4F3EF" fill-opacity="0.04" stroke="#3FB9A6" stroke-opacity="0.4" transform-origin="216px 75px"/>
+  <text x="216" y="60" font-size="24" fill="#3FB9A6" text-anchor="middle">◆</text>
+  <text x="216" y="88" font-size="11" fill="#F4F3EF" text-anchor="middle">Commits</text>
+  <text x="216" y="106" font-size="16" fill="#F4F3EF" text-anchor="middle" font-weight="700">240+</text>
+
+  <rect class="cell c3" x="292" y="20" width="120" height="110" rx="10" fill="#F4F3EF" fill-opacity="0.04" stroke="#4C7FD7" stroke-opacity="0.4" transform-origin="352px 75px"/>
+  <text x="352" y="60" font-size="24" fill="#4C7FD7" text-anchor="middle">▲</text>
+  <text x="352" y="88" font-size="11" fill="#F4F3EF" text-anchor="middle">Pull Requests</text>
+  <text x="352" y="106" font-size="16" fill="#F4F3EF" text-anchor="middle" font-weight="700">4</text>
+
+  <rect class="cell c4" x="428" y="20" width="120" height="110" rx="10" fill="#F4F3EF" fill-opacity="0.04" stroke="#F2A93C" stroke-opacity="0.4" transform-origin="488px 75px"/>
+  <text x="488" y="60" font-size="24" fill="#F2A93C" text-anchor="middle">●</text>
+  <text x="488" y="88" font-size="11" fill="#F4F3EF" text-anchor="middle">Followers</text>
+  <text x="488" y="106" font-size="16" fill="#F4F3EF" text-anchor="middle" font-weight="700">28</text>
+
+  <rect class="cell c5" x="564" y="20" width="116" height="110" rx="10" fill="#F4F3EF" fill-opacity="0.04" stroke="#3FB9A6" stroke-opacity="0.4" transform-origin="622px 75px"/>
+  <text x="622" y="60" font-size="24" fill="#3FB9A6" text-anchor="middle">⬢</text>
+  <text x="622" y="88" font-size="11" fill="#F4F3EF" text-anchor="middle">Streak</text>
+  <text x="622" y="106" font-size="16" fill="#F4F3EF" text-anchor="middle" font-weight="700">12d</text>
+</g>
+</svg>
