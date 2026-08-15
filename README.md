@@ -27,7 +27,6 @@
 
 I'm a Computer Science Engineer passionate about building real-world applications using AI, Full Stack Development, and automation. I enjoy turning ideas into practical, working products and continuously exploring new technologies.
 
-- 🔭 Currently building: **CareerPilot-AI** — an AI-powered career assistant
 - 🌱 Currently exploring: Generative AI, LLMs, AI Agents, FastAPI & React
 - 💻 Comfortable with: Python, JavaScript, TypeScript, React, FastAPI, SQL
 - 🤖 Interested in: AI/ML, Generative AI, Full Stack Development & Automation
