@@ -22,7 +22,9 @@
 
 <br>
 
-<img src="openwork.svg?v=2" alt="open to work" width="100%">
+<a href="https://github.com/HarinirajanT">
+<img src="openwork.svg?v=3" alt="open to work - click to view GitHub profile" width="100%">
+</a>
 
 </td>
 </tr>
@@ -39,8 +41,6 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 💻 Comfortable with: Python, JavaScript, TypeScript, React, FastAPI, SQL
 
 🤖 Interested in: AI/ML, Generative AI, Full Stack Development & Automation
-
-💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
 
 🔭 **Currently building:** [CareerPilot-AI](https://github.com/HarinirajanT/CareerPilot-AI) — evolving from a resume-analysis pipeline into a tool-calling, multi-agent system.
 
@@ -90,7 +90,5 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 </div>
 
 
+💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
 
-
-
-</div>
