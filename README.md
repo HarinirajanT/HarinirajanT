@@ -22,10 +22,7 @@
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harini-t-853aa4263/)
-[![Email](https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harinirajan2004t@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-22D3EE?style=for-the-badge&logo=vercel&logoColor=white)](https://harinirajant.github.io/harini-portfolio/)
-
-<sub>📧 harinirajan2004t@gmail.com — copy directly if the button doesn't open your mail app</sub>
 
 <br>
 
@@ -109,6 +106,8 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 
 
 💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
+
+
 
 
 
