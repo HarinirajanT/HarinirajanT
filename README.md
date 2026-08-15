@@ -19,13 +19,6 @@
 <tr>
 <td align="center" bgcolor="#0E1216">
 
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harini-t-853aa4263/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-22D3EE?style=for-the-badge&logo=vercel&logoColor=white)](https://harinirajant.github.io/harini-portfolio/)
-
-<br>
-
 </td>
 </tr>
 </table>
