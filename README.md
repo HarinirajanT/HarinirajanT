@@ -52,28 +52,11 @@ Developed the company's official website using React.js, HTML5, CSS3, and JavaSc
 
 ---
 
-### GitHub Stats
+GitHub Stats
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=HarinirajanT&show_icons=true&hide_border=true&bg_color=050B14&title_color=22D3EE&icon_color=38BDF8&text_color=93C5FD&ring_color=818CF8&cache_seconds=86400" alt="stats" height="165"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarinirajanT&layout=compact&hide_border=true&bg_color=050B14&title_color=22D3EE&text_color=93C5FD&cache_seconds=86400" alt="top langs" height="165"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=HarinirajanT&hide_border=true&background=050B14&stroke=22D3EE&ring=38BDF8&fire=818CF8&currStreakLabel=22D3EE" alt="streak"/> </div>
+Contribution Snake
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarinirajanT/HarinirajanT/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HarinirajanT/HarinirajanT/output/github-contribution-grid-snake.svg" /> <img alt="snake animation" src="https://raw.githubusercontent.com/HarinirajanT/HarinirajanT/output/github-contribution-grid-snake.svg" /> </picture> </div>
 
-<div align="center">
+(Appears after you enable the workflow below — see setup steps.)
 
-<img src="https://github-readme-stats.vercel.app/api?username=HarinirajanT&show_icons=true&hide_border=true&bg_color=050B14&title_color=22D3EE&icon_color=38BDF8&text_color=93C5FD&ring_color=818CF8" alt="stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarinirajanT&layout=compact&hide_border=true&bg_color=050B14&title_color=22D3EE&text_color=93C5FD" alt="top langs" height="165"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HarinirajanT&hide_border=true&background=050B14&stroke=22D3EE&ring=38BDF8&fire=818CF8&currStreakLabel=22D3EE" alt="streak"/>
-
-</div>
-
----
-
-### Contribution Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/HarinirajanT/HarinirajanT/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</div>
-
-
-<br/>
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=HarinirajanT&color=22D3EE&style=flat" alt="profile views"/>
-</div>
+<br/> <div align="center"> <img src="https://komarev.com/ghpvc/?username=HarinirajanT&color=22D3EE&style=flat" alt="profile views"/> </div>
