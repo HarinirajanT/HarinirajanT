@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="banner.svg?v=2" alt="Harini T banner" width="100%">
@@ -16,7 +15,21 @@
 
 <br>
 
-[LinkedIn](https://www.linkedin.com/in/harini-t-853aa4263/) · [Email](mailto:harinirajan2004t@gmail.com) · [Portfolio](https://github.com/HarinirajanT/harini-portfolio) · [Resume](./resume.pdf)
+<table>
+<tr>
+<td align="center" bgcolor="#0E1216">
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harini-t-853aa4263/)
+[![Email](https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harinirajan2004t@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-22D3EE?style=for-the-badge&logo=vercel&logoColor=white)](https://harinirajant.github.io/harini-portfolio/)
+
+<br>
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -33,7 +46,6 @@
 </table>
 
 </div>
-
 ## 👩‍💻 About me
 
 I'm a Computer Science Engineer building **agentic AI systems** — agents that plan, call tools, and act, not just reply — alongside full-stack products that ship.
@@ -93,6 +105,8 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 
 
 💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
+
+
 
 
 
