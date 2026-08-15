@@ -23,9 +23,14 @@
 
 </div>
 
-## 👩‍💻 About me
+👩‍💻 About Me
 
-I'm a Computer Science Engineer building **agentic AI systems** — agents that plan, call tools, and act, not just reply — alongside full-stack products that ship.
+I'm a Computer Science Engineer passionate about building real-world applications using AI, Full Stack Development, and automation. I enjoy turning ideas into practical, working products and continuously exploring new technologies.
+
+🌱 Currently exploring: Generative AI, LLMs, AI Agents, FastAPI & React
+💻 Comfortable with: Python, JavaScript, TypeScript, React, FastAPI, SQL
+🤖 Interested in: AI/ML, Generative AI, Full Stack Development & Automation
+💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
 
 🔭 **Currently building:** [CareerPilot-AI](https://github.com/HarinirajanT/CareerPilot-AI) — evolving from a resume-analysis pipeline into a tool-calling, multi-agent system.
 
