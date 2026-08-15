@@ -46,6 +46,8 @@
 </table>
 
 </div>
+
+---
 ## 👩‍💻 About me
 
 I'm a Computer Science Engineer building **agentic AI systems** — agents that plan, call tools, and act, not just reply — alongside full-stack products that ship.
