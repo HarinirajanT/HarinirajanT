@@ -1,0 +1,103 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050B14"/>
+      <stop offset="55%" stop-color="#07182B"/>
+      <stop offset="100%" stop-color="#031014"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="1200" height="340" rx="18"/>
+    </clipPath>
+    <clipPath id="typeClip">
+      <rect x="60" y="70" width="0" height="34">
+        <animate attributeName="width" from="0" to="640" dur="1.8s" begin="0.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1200" height="340" fill="url(#bgGrad)"/>
+
+    <!-- faint grid -->
+    <g stroke="#0EA5B7" stroke-opacity="0.06">
+      <line x1="0" y1="95" x2="1200" y2="95"/>
+      <line x1="0" y1="190" x2="1200" y2="190"/>
+      <line x1="0" y1="285" x2="1200" y2="285"/>
+    </g>
+
+    <!-- scanning line sweep -->
+    <rect x="0" y="0" width="1200" height="3" fill="url(#lineGrad)" opacity="0.7">
+      <animate attributeName="y" values="0;337;0" dur="6s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- terminal dots -->
+    <circle cx="34" cy="34" r="6" fill="#F87171"/>
+    <circle cx="56" cy="34" r="6" fill="#FBBF24"/>
+    <circle cx="78" cy="34" r="6" fill="#34D399"/>
+    <text x="1150" y="39" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="13" fill="#3B7A8A">harini@dev:~</text>
+
+    <!-- typing terminal line -->
+    <text x="60" y="96" font-family="Consolas, Menlo, monospace" font-size="24" fill="#5EEAD4">
+      <tspan>$ whoami</tspan>
+    </text>
+    <g clip-path="url(#typeClip)">
+      <text x="60" y="96" font-family="Consolas, Menlo, monospace" font-size="24" fill="#5EEAD4">
+        <tspan>$ whoami                    </tspan>
+      </text>
+    </g>
+    <rect x="242" y="76" width="12" height="26" fill="#5EEAD4">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="0.9s" begin="2.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- name -->
+    <text x="60" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="60" font-weight="700" fill="url(#nameGrad)" opacity="0">
+      Harini T
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
+    </text>
+
+    <!-- single static subtitle, no overlap -->
+    <text x="62" y="220" font-family="Consolas, Menlo, monospace" font-size="21" fill="#93C5FD" opacity="0">
+      CSE Student · AI &amp; Full-Stack Developer
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.3s" fill="freeze"/>
+    </text>
+
+    <!-- tech pills -->
+    <g font-family="Consolas, Menlo, monospace" font-size="15" fill="#E0F2FE" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4.2s" fill="freeze"/>
+      <g>
+        <rect x="62" y="255" rx="14" ry="14" width="88" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="106" y="275" text-anchor="middle">Python</text>
+      </g>
+      <g>
+        <rect x="160" y="255" rx="14" ry="14" width="72" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="196" y="275" text-anchor="middle">React</text>
+      </g>
+      <g>
+        <rect x="242" y="255" rx="14" ry="14" width="110" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="297" y="275" text-anchor="middle">FastAPI</text>
+      </g>
+      <g>
+        <rect x="362" y="255" rx="14" ry="14" width="115" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="419" y="275" text-anchor="middle">TypeScript</text>
+      </g>
+      <g>
+        <rect x="487" y="255" rx="14" ry="14" width="70" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="522" y="275" text-anchor="middle">SQL</text>
+      </g>
+      <g>
+        <rect x="567" y="255" rx="14" ry="14" width="100" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
+        <text x="617" y="275" text-anchor="middle">GenAI</text>
+      </g>
+    </g>
+  </g>
+</svg>
