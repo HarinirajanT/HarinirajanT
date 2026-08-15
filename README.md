@@ -26,11 +26,16 @@
 <img src="openwork.svg?v=3" alt="open to work - click to view GitHub profile" width="100%">
 </a>
 
+<br>
+
+<img src="agentloop.svg?v=1" alt="how I build: observe, reason, act" width="100%">
+
 </td>
 </tr>
 </table>
 
 </div>
+
 
 ## 👩‍💻 About me
 
@@ -91,4 +96,9 @@ I'm a Computer Science Engineer building **agentic AI systems** — agents that 
 
 
 💬 Ask me about: Python, Full Stack Development, AI-powered applications & APIs
+
+
+
+
+
 
