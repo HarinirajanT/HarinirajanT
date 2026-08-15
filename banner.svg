@@ -1,7 +1,7 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="365" viewBox="0 0 1280 365" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <clipPath id="bannerClip"><rect width="1280" height="420" rx="20"/></clipPath>
-  <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+  <clipPath id="bannerClip"><rect width="1280" height="365" rx="20"/></clipPath>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="365" gradientUnits="userSpaceOnUse">
     <stop offset="0%" stop-color="#0E1216"/>
     <stop offset="100%" stop-color="#141A20"/>
   </linearGradient>
@@ -15,6 +15,9 @@
     <stop offset="50%" stop-color="#3FB9A6" stop-opacity="0.35"/>
     <stop offset="100%" stop-color="#3FB9A6" stop-opacity="0"/>
   </linearGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="1.2" cy="1.2" r="1.2" fill="#F4F3EF" fill-opacity="0.035"/>
+  </pattern>
 </defs>
 
 <style>
@@ -29,20 +32,23 @@
   .cl1{animation-delay:1.0s;} .cl2{animation-delay:1.4s;} .cl3{animation-delay:1.8s;}
   .cl4{animation-delay:2.2s;} .cl5{animation-delay:2.6s;} .cl6{animation-delay:3.0s;}
   @keyframes fadein{to{opacity:1;}}
-  .neon{animation:flicker 3.5s infinite;}
-  @keyframes flicker{
-    0%,3%,6%,7%,9%,100%{opacity:1;}
-    4%,5%,8%{opacity:0.3;}
-  }
   .spark{animation:float 6s ease-in-out infinite;}
   @keyframes float{0%,100%{transform:translateY(0);opacity:.6;}50%{transform:translateY(-14px);opacity:1;}}
   .cursor{animation:blink 1s step-end infinite;}
+  .cursor2{animation:blink 1s step-end infinite 3.4s;}
   @keyframes blink{50%{opacity:0;}}
+  .titlegrp{opacity:0;animation:riseIn .8s ease forwards .15s;}
+  @keyframes riseIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  .pulse-dot{animation:pulse 2s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+  .branch{opacity:0;animation:fadein .5s ease forwards 3.6s;}
+  .footer-line{opacity:0;animation:fadein .5s ease forwards 3.8s;}
 </style>
 
 <g clip-path="url(#bannerClip)">
-  <rect width="1280" height="420" fill="url(#bgGrad)"/>
-  <rect width="1280" height="420" fill="none" stroke="#F2A93C" stroke-opacity="0.15" stroke-width="1" rx="20"/>
+  <rect width="1280" height="365" fill="url(#bgGrad)"/>
+  <rect width="1280" height="365" fill="url(#dots)"/>
+  <rect width="1280" height="365" fill="none" stroke="#F2A93C" stroke-opacity="0.15" stroke-width="1" rx="20"/>
 
   <!-- ambient particles -->
   <circle class="spark" cx="1180" cy="80" r="2.5" fill="#3FB9A6" style="animation-delay:.5s"/>
@@ -50,6 +56,7 @@
   <circle class="spark" cx="60" cy="60" r="2" fill="#3FB9A6" style="animation-delay:2.5s"/>
   <circle class="spark" cx="30" cy="360" r="2.5" fill="#F2A93C" style="animation-delay:0s"/>
   <circle class="spark" cx="900" cy="50" r="1.8" fill="#3FB9A6" style="animation-delay:3s"/>
+  <circle class="spark" cx="590" cy="70" r="1.8" fill="#F2A93C" style="animation-delay:1s"/>
 
   <!-- terminal typing line -->
   <text x="48" y="52" font-size="14" fill="#3FB9A6">
@@ -57,8 +64,18 @@
   </text>
   <rect class="cursor" x="292" y="41" width="8" height="14" fill="#3FB9A6"/>
 
+  <!-- git branch chip, top right of terminal row -->
+  <g class="branch">
+    <rect x="1120" y="34" width="112" height="26" rx="13" fill="#F4F3EF" fill-opacity="0.05" stroke="#F4F3EF" stroke-opacity="0.12"/>
+    <circle cx="1136" cy="47" r="3" fill="#3FB9A6"/>
+    <text x="1148" y="51" font-size="11" fill="#C9C7BE">main · v2</text>
+  </g>
+
   <!-- name with animated gradient -->
-  <text class="disp" x="48" y="150" font-size="64" fill="url(#nameGrad)">Harini T</text>
+  <g class="titlegrp">
+    <text class="disp" x="48" y="150" font-size="64" fill="url(#nameGrad)">Harini T</text>
+    <rect x="50" y="164" width="220" height="2" fill="#F2A93C" fill-opacity="0.4"/>
+  </g>
 
   <!-- cycling role titles -->
   <text class="role" x="50" y="188" font-size="20" fill="#C9C7BE">
@@ -88,13 +105,14 @@
     <rect class="pill pill6" x="486" y="278" width="80" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill6" x="498" y="296">FullStack</text>
   </g>
 
-  
+
 
   <!-- code card -->
   <rect x="620" y="90" width="600" height="230" rx="12" fill="#F4F3EF" fill-opacity="0.04" stroke="#F4F3EF" stroke-opacity="0.1"/>
   <circle cx="644" cy="114" r="5" fill="#E24B4A" fill-opacity="0.6"/>
   <circle cx="662" cy="114" r="5" fill="#F2A93C" fill-opacity="0.6"/>
   <circle cx="680" cy="114" r="5" fill="#3FB9A6" fill-opacity="0.6"/>
+  <text x="1180" y="118" font-size="10" fill="#C9C7BE" text-anchor="end" fill-opacity="0.5">agent.ts</text>
   <g font-size="13" fill="#C9C7BE">
     <text class="code-line cl1" x="644" y="150"><tspan fill="#F2A93C">async function</tspan> buildDreams() {</text>
     <text class="code-line cl2" x="664" y="176">const goal = <tspan fill="#3FB9A6">"ship agentic AI"</tspan>;</text>
@@ -103,10 +121,16 @@
     <text class="code-line cl5" x="664" y="254">}</text>
     <text class="code-line cl6" x="644" y="280">}</text>
   </g>
+  <rect class="code-line cl6 cursor2" x="656" y="270" width="7" height="13" fill="#3FB9A6"/>
+
+  <!-- bottom-right contact line, mirrors the terminal line at top -->
+  <g class="footer-line">
+    <text x="1232" y="340" font-size="11" fill="#C9C7BE" text-anchor="end" fill-opacity="0.6">github.com/HarinirajanT</text>
+  </g>
 
   <!-- scanner sweep -->
   <rect x="0" y="-40" width="1280" height="40" fill="url(#scanGrad)">
-    <animate attributeName="y" values="-40;420" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="-40;365" dur="3.5s" repeatCount="indefinite"/>
   </rect>
 </g>
 </svg>
