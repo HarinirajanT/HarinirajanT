@@ -1,0 +1,27 @@
+<svg width="480" height="200" viewBox="0 0 480 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text{font-family:'JetBrains Mono',monospace;}
+  .bar{transform-origin:24px 0;}
+</style>
+<rect width="480" height="200" fill="#0E1216" rx="16"/>
+<rect width="480" height="200" fill="none" stroke="#F4F3EF" stroke-opacity="0.08" rx="16"/>
+<text x="24" y="36" font-size="14" fill="#F4F3EF" font-weight="700">Most Used Languages</text>
+
+<g font-size="12" fill="#C9C7BE">
+  <text x="24" y="66">Python</text>
+  <rect x="24" y="74" width="0" height="10" rx="5" fill="#F2A93C"><animate attributeName="width" to="200" dur="1s" begin=".2s" fill="freeze"/></rect>
+  <text x="234" y="83">42%</text>
+
+  <text x="24" y="106">JavaScript</text>
+  <rect x="24" y="114" width="0" height="10" rx="5" fill="#3FB9A6"><animate attributeName="width" to="160" dur="1s" begin=".4s" fill="freeze"/></rect>
+  <text x="194" y="123">33%</text>
+
+  <text x="24" y="146">TypeScript</text>
+  <rect x="24" y="154" width="0" height="10" rx="5" fill="#4C7FD7"><animate attributeName="width" to="90" dur="1s" begin=".6s" fill="freeze"/></rect>
+  <text x="124" y="163">19%</text>
+
+  <text x="336" y="66">HTML</text>
+  <rect x="336" y="74" width="0" height="10" rx="5" fill="#E24B4A"><animate attributeName="width" to="35" dur="1s" begin=".8s" fill="freeze"/></rect>
+  <text x="378" y="83" font-size="11">6%</text>
+</g>
+</svg>
