@@ -88,12 +88,7 @@
     <rect class="pill pill6" x="486" y="278" width="80" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill6" x="498" y="296">FullStack</text>
   </g>
 
-  <!-- stats bar -->
-  <g font-size="12" fill="#C9C7BE">
-    <text x="48" y="350">REPOS</text><text x="48" y="374" font-size="20" fill="#F4F3EF">18</text>
-    <text x="140" y="350">FOCUS</text><text x="140" y="374" font-size="20" fill="#F4F3EF">Agentic AI</text>
-    <text x="280" y="350">STACK</text><text x="280" y="374" font-size="20" fill="#F4F3EF">Py · TS · React</text>
-  </g>
+  
 
   <!-- code card -->
   <rect x="620" y="90" width="600" height="230" rx="12" fill="#F4F3EF" fill-opacity="0.04" stroke="#F4F3EF" stroke-opacity="0.1"/>
@@ -108,9 +103,6 @@
     <text class="code-line cl5" x="664" y="254">}</text>
     <text class="code-line cl6" x="644" y="280">}</text>
   </g>
-
-  <!-- neon sign -->
-  <text class="neon disp" x="640" y="360" font-size="17" fill="#3FB9A6" text-anchor="middle">KEEP BUILDING AGENTS</text>
 
   <!-- scanner sweep -->
   <rect x="0" y="-40" width="1280" height="40" fill="url(#scanGrad)">
