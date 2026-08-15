@@ -1,103 +1,120 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050B14"/>
-      <stop offset="55%" stop-color="#07182B"/>
-      <stop offset="100%" stop-color="#031014"/>
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="50%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#818CF8"/>
-    </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="cardClip">
-      <rect x="0" y="0" width="1200" height="340" rx="18"/>
-    </clipPath>
-    <clipPath id="typeClip">
-      <rect x="60" y="70" width="0" height="34">
-        <animate attributeName="width" from="0" to="640" dur="1.8s" begin="0.3s" fill="freeze"/>
-      </rect>
-    </clipPath>
-  </defs>
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <clipPath id="bannerClip"><rect width="1280" height="420" rx="20"/></clipPath>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#0E1216"/>
+    <stop offset="100%" stop-color="#141A20"/>
+  </linearGradient>
+  <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#F2A93C"><animate attributeName="offset" values="0;0.3;0" dur="4s" repeatCount="indefinite"/></stop>
+    <stop offset="50%" stop-color="#3FB9A6"/>
+    <stop offset="100%" stop-color="#F2A93C"><animate attributeName="offset" values="1;0.7;1" dur="4s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#3FB9A6" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#3FB9A6" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#3FB9A6" stop-opacity="0"/>
+  </linearGradient>
+</defs>
 
-  <g clip-path="url(#cardClip)">
-    <rect width="1200" height="340" fill="url(#bgGrad)"/>
+<style>
+  text{font-family:'JetBrains Mono','Courier New',monospace;}
+  .disp{font-family:'Trebuchet MS','Segoe UI',sans-serif;font-weight:700;}
+  .role{opacity:0;}
+  .pill{opacity:0;animation:pop .5s ease forwards;}
+  .pill1{animation-delay:2.2s;} .pill2{animation-delay:2.4s;} .pill3{animation-delay:2.6s;}
+  .pill4{animation-delay:2.8s;} .pill5{animation-delay:3.0s;} .pill6{animation-delay:3.2s;}
+  @keyframes pop{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
+  .code-line{opacity:0;animation:fadein .4s ease forwards;}
+  .cl1{animation-delay:1.0s;} .cl2{animation-delay:1.4s;} .cl3{animation-delay:1.8s;}
+  .cl4{animation-delay:2.2s;} .cl5{animation-delay:2.6s;} .cl6{animation-delay:3.0s;}
+  @keyframes fadein{to{opacity:1;}}
+  .neon{animation:flicker 3.5s infinite;}
+  @keyframes flicker{
+    0%,3%,6%,7%,9%,100%{opacity:1;}
+    4%,5%,8%{opacity:0.3;}
+  }
+  .spark{animation:float 6s ease-in-out infinite;}
+  @keyframes float{0%,100%{transform:translateY(0);opacity:.6;}50%{transform:translateY(-14px);opacity:1;}}
+  .cursor{animation:blink 1s step-end infinite;}
+  @keyframes blink{50%{opacity:0;}}
+</style>
 
-    <!-- faint grid -->
-    <g stroke="#0EA5B7" stroke-opacity="0.06">
-      <line x1="0" y1="95" x2="1200" y2="95"/>
-      <line x1="0" y1="190" x2="1200" y2="190"/>
-      <line x1="0" y1="285" x2="1200" y2="285"/>
-    </g>
+<g clip-path="url(#bannerClip)">
+  <rect width="1280" height="420" fill="url(#bgGrad)"/>
+  <rect width="1280" height="420" fill="none" stroke="#F2A93C" stroke-opacity="0.15" stroke-width="1" rx="20"/>
 
-    <!-- scanning line sweep -->
-    <rect x="0" y="0" width="1200" height="3" fill="url(#lineGrad)" opacity="0.7">
-      <animate attributeName="y" values="0;337;0" dur="6s" begin="2s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ambient particles -->
+  <circle class="spark" cx="1180" cy="80" r="2.5" fill="#3FB9A6" style="animation-delay:.5s"/>
+  <circle class="spark" cx="1120" cy="330" r="2" fill="#F2A93C" style="animation-delay:1.5s"/>
+  <circle class="spark" cx="60" cy="60" r="2" fill="#3FB9A6" style="animation-delay:2.5s"/>
+  <circle class="spark" cx="30" cy="360" r="2.5" fill="#F2A93C" style="animation-delay:0s"/>
+  <circle class="spark" cx="900" cy="50" r="1.8" fill="#3FB9A6" style="animation-delay:3s"/>
 
-    <!-- terminal dots -->
-    <circle cx="34" cy="34" r="6" fill="#F87171"/>
-    <circle cx="56" cy="34" r="6" fill="#FBBF24"/>
-    <circle cx="78" cy="34" r="6" fill="#34D399"/>
-    <text x="1150" y="39" text-anchor="end" font-family="Consolas, Menlo, monospace" font-size="13" fill="#3B7A8A">harini@dev:~</text>
+  <!-- terminal typing line -->
+  <text x="48" y="52" font-size="14" fill="#3FB9A6">
+    <tspan>&gt; user@harini:~$ cat README.md</tspan>
+  </text>
+  <rect class="cursor" x="292" y="41" width="8" height="14" fill="#3FB9A6"/>
 
-    <!-- typing terminal line -->
-    <text x="60" y="96" font-family="Consolas, Menlo, monospace" font-size="24" fill="#5EEAD4">
-      <tspan>$ whoami</tspan>
-    </text>
-    <g clip-path="url(#typeClip)">
-      <text x="60" y="96" font-family="Consolas, Menlo, monospace" font-size="24" fill="#5EEAD4">
-        <tspan>$ whoami                    </tspan>
-      </text>
-    </g>
-    <rect x="242" y="76" width="12" height="26" fill="#5EEAD4">
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="0.9s" begin="2.1s" repeatCount="indefinite"/>
-    </rect>
+  <!-- name with animated gradient -->
+  <text class="disp" x="48" y="150" font-size="64" fill="url(#nameGrad)">Harini T</text>
 
-    <!-- name -->
-    <text x="60" y="178" font-family="'Segoe UI', Arial, sans-serif" font-size="60" font-weight="700" fill="url(#nameGrad)" opacity="0">
-      Harini T
-      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.3s" fill="freeze"/>
-    </text>
+  <!-- cycling role titles -->
+  <text class="role" x="50" y="188" font-size="20" fill="#C9C7BE">
+    <tspan>Agentic AI Engineer</tspan>
+    <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" begin="1s" repeatCount="indefinite"/>
+  </text>
+  <text class="role" x="50" y="188" font-size="20" fill="#C9C7BE">
+    <tspan>Full-Stack Developer</tspan>
+    <animate attributeName="opacity" values="0;0;0;1;1;0;0;0" keyTimes="0;0.2;0.25;0.3;0.45;0.5;0.95;1" dur="8s" begin="1s" repeatCount="indefinite"/>
+  </text>
+  <text class="role" x="50" y="188" font-size="20" fill="#C9C7BE">
+    <tspan>Builder of CareerPilot-AI</tspan>
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;0.45;0.5;0.55;0.7;0.75;0.95;1" dur="8s" begin="1s" repeatCount="indefinite"/>
+  </text>
 
-    <!-- single static subtitle, no overlap -->
-    <text x="62" y="220" font-family="Consolas, Menlo, monospace" font-size="21" fill="#93C5FD" opacity="0">
-      CSE Student · AI &amp; Full-Stack Developer
-      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.3s" fill="freeze"/>
-    </text>
+  <!-- tagline quote box -->
+  <rect x="48" y="212" width="480" height="46" rx="8" fill="#F4F3EF" fill-opacity="0.04" stroke="#F4F3EF" stroke-opacity="0.12"/>
+  <text x="64" y="240" font-size="13" fill="#F2A93C">"Building systems that decide, not just reply."</text>
 
-    <!-- tech pills -->
-    <g font-family="Consolas, Menlo, monospace" font-size="15" fill="#E0F2FE" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4.2s" fill="freeze"/>
-      <g>
-        <rect x="62" y="255" rx="14" ry="14" width="88" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="106" y="275" text-anchor="middle">Python</text>
-      </g>
-      <g>
-        <rect x="160" y="255" rx="14" ry="14" width="72" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="196" y="275" text-anchor="middle">React</text>
-      </g>
-      <g>
-        <rect x="242" y="255" rx="14" ry="14" width="110" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="297" y="275" text-anchor="middle">FastAPI</text>
-      </g>
-      <g>
-        <rect x="362" y="255" rx="14" ry="14" width="115" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="419" y="275" text-anchor="middle">TypeScript</text>
-      </g>
-      <g>
-        <rect x="487" y="255" rx="14" ry="14" width="70" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="522" y="275" text-anchor="middle">SQL</text>
-      </g>
-      <g>
-        <rect x="567" y="255" rx="14" ry="14" width="100" height="30" fill="#0B2A3A" stroke="#22D3EE" stroke-opacity="0.5"/>
-        <text x="617" y="275" text-anchor="middle">GenAI</text>
-      </g>
-    </g>
+  <!-- tech pills -->
+  <g font-size="12" fill="#F4F3EF">
+    <rect class="pill pill1" x="48" y="278" width="70" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill1" x="60" y="296">Python</text>
+    <rect class="pill pill2" x="126" y="278" width="80" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill2" x="138" y="296">FastAPI</text>
+    <rect class="pill pill3" x="214" y="278" width="90" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill3" x="226" y="296">LangChain</text>
+    <rect class="pill pill4" x="312" y="278" width="70" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill4" x="324" y="296">React</text>
+    <rect class="pill pill5" x="390" y="278" width="88" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill5" x="402" y="296">LangGraph</text>
+    <rect class="pill pill6" x="486" y="278" width="80" height="28" rx="14" fill="#F4F3EF" fill-opacity="0.06"/><text class="pill pill6" x="498" y="296">FullStack</text>
   </g>
+
+  <!-- stats bar -->
+  <g font-size="12" fill="#C9C7BE">
+    <text x="48" y="350">REPOS</text><text x="48" y="374" font-size="20" fill="#F4F3EF">18</text>
+    <text x="140" y="350">FOCUS</text><text x="140" y="374" font-size="20" fill="#F4F3EF">Agentic AI</text>
+    <text x="280" y="350">STACK</text><text x="280" y="374" font-size="20" fill="#F4F3EF">Py · TS · React</text>
+  </g>
+
+  <!-- code card -->
+  <rect x="620" y="90" width="600" height="230" rx="12" fill="#F4F3EF" fill-opacity="0.04" stroke="#F4F3EF" stroke-opacity="0.1"/>
+  <circle cx="644" cy="114" r="5" fill="#E24B4A" fill-opacity="0.6"/>
+  <circle cx="662" cy="114" r="5" fill="#F2A93C" fill-opacity="0.6"/>
+  <circle cx="680" cy="114" r="5" fill="#3FB9A6" fill-opacity="0.6"/>
+  <g font-size="13" fill="#C9C7BE">
+    <text class="code-line cl1" x="644" y="150"><tspan fill="#F2A93C">async function</tspan> buildDreams() {</text>
+    <text class="code-line cl2" x="664" y="176">const goal = <tspan fill="#3FB9A6">"ship agentic AI"</tspan>;</text>
+    <text class="code-line cl3" x="664" y="202">while (!goal.achieved) {</text>
+    <text class="code-line cl4" x="684" y="228">await learn(); await build();</text>
+    <text class="code-line cl5" x="664" y="254">}</text>
+    <text class="code-line cl6" x="644" y="280">}</text>
+  </g>
+
+  <!-- neon sign -->
+  <text class="neon disp" x="640" y="360" font-size="17" fill="#3FB9A6" text-anchor="middle">KEEP BUILDING AGENTS</text>
+
+  <!-- scanner sweep -->
+  <rect x="0" y="-40" width="1280" height="40" fill="url(#scanGrad)">
+    <animate attributeName="y" values="-40;420" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</g>
 </svg>
