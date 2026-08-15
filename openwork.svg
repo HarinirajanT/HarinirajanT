@@ -1,0 +1,60 @@
+```svg
+<svg width="700" height="60" viewBox="0 0 700 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .dot {
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.25;
+      }
+    }
+  </style>
+
+  <rect
+    width="700"
+    height="60"
+    rx="14"
+    fill="#0E1216"
+    stroke="#3FB9A6"
+    stroke-opacity="0.4"
+  />
+
+  <circle
+    class="dot"
+    cx="34"
+    cy="30"
+    r="6"
+    fill="#3FB9A6"
+  />
+
+  <text
+    x="54"
+    y="35"
+    font-size="14"
+    fill="#F4F3EF"
+  >
+    Open to
+    <tspan fill="#F2A93C" font-weight="700">
+      Collaborate • Contribute • Learn • Grow
+    </tspan>
+  </text>
+
+  <text
+    x="560"
+    y="35"
+    font-size="12"
+    fill="#C9C7BE"
+  >
+    Let's connect →
+  </text>
+</svg>
+```
