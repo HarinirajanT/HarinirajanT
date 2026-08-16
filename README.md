@@ -33,7 +33,7 @@
 ---
 ## 👩‍💻 About me
 
-I'm a Computer Science Engineer building **agentic AI systems** — agents that plan, call tools, and act, not just reply — alongside full-stack products that ship.
+I'm a Computer Science Engineer passionate about building real-world applications using AI, Full Stack Development, and automation. I enjoy turning ideas into practical, working products and continuously exploring new technologies.
 
 🌱 Currently exploring: Generative AI, LLMs, AI Agents, FastAPI & React
 
