@@ -15,15 +15,6 @@
 
 <br>
 
-<table>
-<tr>
-<td align="center" bgcolor="#0E1216">
-
-</td>
-</tr>
-</table>
-
-<br>
 
 <a href="https://github.com/HarinirajanT">
 <img src="openwork.svg?v=3" alt="open to work - click to view GitHub profile" width="100%">
